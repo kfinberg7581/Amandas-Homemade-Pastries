@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kaitlyn Finberg">
+    <title>Amanda's Homemade Pastries</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/263ef900f7.js" crossorigin="anonymous"></script>
+    <script src="js/script.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="headerDiv">
+            <img src="images/amanda.jpg" alt="Logo" width="100" height="100">
+            <h1>Amanda's Homemade Pastries</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a class="navlist active" href="index.html">&hearts; Home Page</a></li>
+                <li><a href="about.html">&hearts; About Amanda</a></li>
+                <li><a href="recipes.html">&hearts; Recipes</a></li>
+                <li><a href="catalog.html">&hearts; Catalog</a></li>
+                <li><a href="reservations.html">&hearts; Reservations</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Welcome!</h2>
+        
+        <p class="info info-left">Wether you have visitied us before our found our page on socials, we are happy to have you! At Amanda's Homemade Pastries, we value our customers as much as we value our webpage. Explore our catalog and learn more about the <a href="about.html">origins of our business.</a> On this site you can find our personal <a href="recipes.html">recipes</a> and a listing for <a href="reservations.html">reservations.</a> We hope to see you soon!</p>
+        
+        <!-- Carousel -->
+        <div class="carousel-container">
+            <button class="carousel-btn left"><i class="fa-solid fa-chevron-left"></i></button>
+            <ul class="carousel">
+                <li class="carousel-item active">
+                    <img class = "para card" src="images/pastriesHome.jpg" alt="Pastry Variety">
+                </li>
+                <li class="carousel-item"> 
+                    <img class = "para card" src="images/pastriesHome2.jpg" alt="Pastry Variety 2">
+                </li>
+                <li class="carousel-item">
+                    <img class = "para card" src="images/pastriesHome3.jpg" alt="Pastry Variety 3">
+                </li>
+            </ul>
+            <button class="carousel-btn right"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+        <div class="carousel-nav">
+            <div class="nav-item active"></div>
+            <div class="nav-item"></div>
+            <div class="nav-item"></div>
+        </div>
+
+
+        <h2 class="margin-top">Current Menu</h2>
+        <table class="card">
+            <caption class="para-sm">Our handcrafted menu changes every 1st and 3rd Sunday of the month.</caption> 
+            <thead>
+                 <tr>
+                     <th></th>
+                     <th>Item</th>
+                     <th>Price</th>
+                 </tr>
+             </thead>
+             <tbody>
+                 <tr>
+                     <th rowspan="4">Hot Pastries</th>
+                     <td>Slice of Apple Cake</td>
+                     <td>$3.00</td>
+                 </tr>
+                 <tr>
+                     <td>Cinnamon-Date Bun</td>
+                     <td>$2.50</td>
+                 </tr>
+                 <tr>
+                     <td>Spinach Croissant</td>
+                     <td>$1.75</td>
+                 </tr>
+                 <tr>
+                     <td>Strazz Muffin</td>
+                     <td>$2.00</td>
+                 </tr>
+                 <tr>
+                     <th rowspan="4">Cold Pastries</th>
+                     <td>Bakers Choice</td>
+                     <td>$3.50</td>
+                 </tr>
+                 <tr>
+                     
+                     <td>Lemon Ice Cupcake</td>
+                     <td>$3.25</td>
+                 </tr>
+                 <tr>
+                 
+                     <td>Oreo Cheesecake Bar</td>
+                     <td>$4.00</td>
+                 </tr>
+                 <tr>
+             
+                     <td>Mango Mousse</td>
+                     <td>$3.50</td>
+                 </tr>
+ 
+                 <tr>
+                     <th rowspan="4">Teas and Drinks</th>
+                     <td>Pineapple Creme Pie</td>
+                     <td>$3.50</td>
+                 </tr>
+                 <tr>
+                     
+                     <td>Green Tea Iced/Hot</td>
+                     <td>$1.75</td>
+                 </tr>
+                 <tr>
+                 
+                     <td>Iced Tea Swt/UnSwt</td>
+                     <td>$2.00</td>
+                 </tr>
+                 <tr>
+                     <td>Sparkling Water</td>
+                     <td>$2.50</td>
+                 </tr>
+             </tbody>
+         </table>
+ 
+         <p class="font-sm para para-top">* Gluten free options are avaliable upon request</p>
+
+        <h2>Where we're Located</h2>
+       
+        <p class="para-sm">Amanda's Homemade Pastries is located at:</p>
+        <p class="para">
+            1870 Old Richard Way <br>
+            Greensboro, NC 27409 <br>
+        </p>
+        
+        <h2>Contact Us!</h2>
+        <p>
+            You can contact our helpful team by:
+        </p>
+       
+        <address class="para">
+            Email: <a href="mailto:amandasHMP@gmail.com">amandasHMP@gmail.com</a><br>
+            Phone: <a href="tel:+13361235689">(336)123-5689</a><br>
+        </address>
+    </main>
+
+    <footer class="font-sm">
+        <p>&copy;2022 Amandas Homemade Pastries. All rights reserved.</p>
+        <i class="fa-solid fa-square-envelope"></i>
+        <i class="fa-solid fa-square-phone"></i>
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-square-twitter"></i>
+        </footer>
+    
+</body>
+</html>

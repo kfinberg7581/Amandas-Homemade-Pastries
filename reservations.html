@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kaitlyn Finberg">
+    <title>Amanda's Homemade Pastries</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/263ef900f7.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="headerDiv">
+            <img src="images/amanda.jpg" alt="Logo" width="100" height="100">
+            <h1>Amanda's Homemade Pastries</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">&hearts; Home Page</a></li>
+                <li><a href="about.html">&hearts; About Amanda</a></li>
+                <li><a href="recipes.html">&hearts; Recipes</a></li>
+                <li><a href="catalog.html">&hearts; Catalog</a></li>
+                <li><a class="navlist active" href="reservations.html">&hearts; Reservations</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 class="para">Make a Reservation Here!</h2>
+
+        <img class="para card" src="images/seating.jpg" alt="Seating area" width="300" height="300">
+
+        <p class="para info info-left">Amandas Pastry Shoppe can get very busy as we have limited seating. If you and your group would like the guarentee of a seating space, please fill out the form below. Thank you!</p>
+
+        <form action="#">
+
+            <div class="para-sm">
+                <input type="text" name="name" id="name" placeholder="First and Last Name" required>
+            </div>
+    
+            <div class="para-sm">
+                <input type="email" name="email" id="email" placeholder="Valid Email Address" required>
+            </div>
+                
+    
+            <div class="para-sm">
+                <input type="tel" name="phone" id="phone" placeholder="Cell number" required>
+            </div>
+                
+    
+            <div class="para-sm">
+                <input type="number" name="count" id="count" min="1" max="20" placeholder="Group Size">
+    
+            </div>
+            
+            <div class="para-sm">
+                <input type="datetime-local" name="reservation" id="reservation" required>
+    
+            </div>
+    
+            <div class="para-sm">
+                <textarea name="message" id="message" placeholder="Special requests, allergies, etc"></textarea>
+            </div>
+    
+            <div class="para-sm">
+                <input type="submit" name="submit" id ="submit" value="Reserve Now">
+            </div>
+            <p class="para font-sm">* Every reservation has a 10 minute grace period.</p>
+    </form>
+    </main>
+
+
+    <footer class="font-sm">
+        <p>&copy;2022 Amandas Homemade Pastries. All rights reserved.</p>
+        <i class="fa-solid fa-square-envelope"></i>
+        <i class="fa-solid fa-square-phone"></i>
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-square-twitter"></i>
+        </footer>
+</body>
+</html>
